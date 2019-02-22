@@ -79,7 +79,7 @@ cust_clusters <- mutate(data, cluster = cluster_assignement)
 
 print(cust_clusters)
 
-## Step 6 - Visualization using ggplot
+## Step 7 - Visualization using ggplot
 
 install.packages('ggplot2')
 library(ggplot2)
@@ -93,7 +93,7 @@ count(cust_clusters, cluster)
 print(cust_clusters[,c(2,8)])
 
 
-### Step 7 - Profiling the clusters
+### Step 8 - Profiling the clusters
 
 install.packages('tidyr')
 library(tidyr)
